@@ -25,7 +25,7 @@ To run a program, e.g., BFS:
 cd src/bfs
 
 ./bfs $DATA_DIR/bfs/nome_del_file
-	
+```
 
 Ogni programma ha il suo input che viene mostrato come messaggio di errore se si esegue uno di questi benchmark senza parametri. Tutto sommato sono facili da utilizzare.
 
