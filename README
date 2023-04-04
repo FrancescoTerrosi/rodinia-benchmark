@@ -4,9 +4,9 @@ https://drive.google.com/file/d/1dQ8d-9zWpPjfpDwSmK5E9ZsfgUdcY5di/view?usp=share
 
 Extract archive with:
 
-```
+`
 tar -xzvf rodinia_data.tar.gz
-```
+`
 
 Compile binaries:
 
