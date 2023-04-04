@@ -2,7 +2,27 @@ Download data archive from:
 
 https://drive.google.com/file/d/1dQ8d-9zWpPjfpDwSmK5E9ZsfgUdcY5di/view?usp=share_link
 
+Extract archive with:
 
+'tar -xzvf rodinia_data.tar.gz'
+
+
+Compile binaries:
+
+
+From root folder type
+
+'make CUDA'
+
+Binaries are place in each benchmark's folder in src.
+
+To run a program, e.g., BFS:
+
+'cd src/bfs'
+
+'./bfs $DATA_DIR/bfs/nome_del_file'
+
+Ogni programma ha il suo input che viene mostrato come messaggio di errore se si esegue uno di questi benchmark senza parametri. Tutto sommato sono facili da utilizzare.
 
 
 
