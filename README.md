@@ -29,10 +29,12 @@ cd src/bfs
 
 Ogni programma ha il suo input che viene mostrato come messaggio di errore se si esegue uno di questi benchmark senza parametri. Tutto sommato sono facili da utilizzare.
 
-NON USARE 
+NON USARE
+
 ```
 make clean
 ```
+
 Perché è buggatissimo
 
 
