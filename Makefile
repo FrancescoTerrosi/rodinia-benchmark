@@ -6,25 +6,25 @@ OCL_DIRS  := backprop bfs cfd gaussian heartwall hotspot kmeans lavaMD leukocyte
 all: CUDA OMP OPENCL
 
 CUDA: 
-    cd cuda/backprop;       make;   
-    cd cuda/bfs;            make;   
-    #cd cuda/cfd;           make;
-    cd cuda/gaussian;       make;   
-    cd cuda/heartwall;          make;
-    cd cuda/hotspot;        make;
-    cd cuda/kmeans;         make;
-    cd cuda/lavaMD;         make;
-    #cd cuda/lud;           make;
-    cd cuda/nn;             make;
-    cd cuda/nw;             make;
-    cd cuda/srad/srad_v1;       make;
-    cd cuda/srad/srad_v2;       make;
-    cd cuda/streamcluster;      make;
-    cd cuda/particlefilter;     make;
-    cd cuda/pathfinder;     make;   
-    #cd cuda/mummergpu;         make;
-    #cd cuda/hybridsort;              make;
-    cd cuda/dwt2d;                   make;
+	cd cuda/backprop;       make;   
+	cd cuda/bfs;            make;   
+	#cd cuda/cfd;           make;
+	cd cuda/gaussian;       make;   
+	cd cuda/heartwall;          make;
+	cd cuda/hotspot;        make;
+	cd cuda/kmeans;         make;
+	cd cuda/lavaMD;         make;
+	#cd cuda/lud;           make;
+	cd cuda/nn;             make;
+	cd cuda/nw;             make;
+	cd cuda/srad/srad_v1;       make;
+	cd cuda/srad/srad_v2;       make;
+	cd cuda/streamcluster;      make;
+	cd cuda/particlefilter;     make;
+	cd cuda/pathfinder;     make;   
+	#cd cuda/mummergpu;         make;
+	#cd cuda/hybridsort;              make;
+	cd cuda/dwt2d;                   make;
 	
 OMP:
 	cd openmp/backprop;				make;	cp backprop $(OMP_BIN_DIR)
